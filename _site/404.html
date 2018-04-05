@@ -8,12 +8,11 @@
 
   <title>404 - Page not found</title>
 
-  <meta name="author" content="" />
+  <meta name="author" content="Some Person" />
 
   
 
-  <link rel="alternate" type="application/rss+xml" title="Your awesome title  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-" href="/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="My website - A virtual proof that name is awesome!" href="/feed.xml" />
 
   
 
@@ -76,6 +75,8 @@
   
 
   
+  <meta property="og:image" content="http://localhost:4000/img/avatar-icon.png" />
+  
 
 
   <!-- Twitter summary cards -->
@@ -99,6 +100,8 @@
   
 
   
+  <meta name="twitter:image" content="http://localhost:4000/img/avatar-icon.png" />
+  
 
   
 
@@ -119,17 +122,98 @@
         <span class="icon-bar"></span>
       </button>
       
-        <a class="navbar-brand" href="http://localhost:4000">Your awesome title</a>
+        <a class="navbar-brand" href="http://localhost:4000">My website</a>
       
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
       
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/aboutme">About Me</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Resources</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://www.markdowntutorial.com/">Learn markdown</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="https://pages.github.com/">GitHub Pages</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="http://deanattali.com">Author's home</a>
+
+          </li>
+        
+        
       </ul>
     </div>
 
-	
+	<!-- 
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000 ">
+	      <img class="avatar-img" src="/img/avatar-icon.png" />
+		</a>
+	  </div>
+	</div>
+	 -->
 
   </div>
 </nav>
@@ -152,12 +236,45 @@
   <div class="container beautiful-jekyll-footer">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links"></ul>
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="mailto:someone@example.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://www.facebook.com/daattali" title="Facebook"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li><li><a href="https://github.com/daattali" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/daattali" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li></ul>
       <p class="copyright text-muted">
-      
+      Some Person
       &nbsp;&bull;&nbsp;
       2018
 
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">MyWebsite.com</a>
       
 
       
